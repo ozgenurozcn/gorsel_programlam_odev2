@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Görsel_Programlama_Ödev2.Views.Yapilacaklar"
+             Title="Yapilacaklar" BackgroundColor="DimGray">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Padding="10">
+                <Label Text="Görev İsmi" FontSize="Title" />
+                <Entry x:Name="TaskNameEntry" Placeholder="Görev İsmi Girin" />
+                <Label Text="Görev Açıklaması" FontSize="Title" />
+                <Entry x:Name="TaskDescriptionEntry" Placeholder="Görev Açıklaması Girin" />
+                <Label Text="Ne Zaman Yapılacak?" FontSize="Title" />
+                <DatePicker x:Name="TaskDatePicker" />
+                <TimePicker x:Name="TaskTimePicker" />
+                <Button Text="Görev Ekle" Clicked="AddTaskButton_Clicked" />
+            </StackLayout>
+            <ListView x:Name="TaskListView"
+                      ItemsSource="{Binding Tasks}"
+                      ItemSelected="TaskListView_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="10"
+                                         Margin="5">
+                                <Label Text="{Binding Name}"
+                                       FontSize="Title"
+                                       FontAttributes="Bold" />
+                                <Label Text="{Binding Description}"
+                                       FontSize="Subtitle" />
+                                <Label Text="{Binding Deadline}"
+                                       FontSize="Subtitle" />
+                                <Label Text="Silmek için tıklayınız"
+                                       FontSize="Caption"
+                                       TextColor="Black"
+                                       HorizontalOptions="End" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

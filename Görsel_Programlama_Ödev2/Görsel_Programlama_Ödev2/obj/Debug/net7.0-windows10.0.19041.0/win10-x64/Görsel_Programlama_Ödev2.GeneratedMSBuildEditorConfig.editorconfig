@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net7.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Görsel_Programlama_Ödev2
+build_property.ProjectDir = C:\Users\LENOVO\source\repos\Görsel_Programlama_Ödev2\Görsel_Programlama_Ödev2\
+
+[C:/Users/LENOVO/source/repos/Görsel_Programlama_Ödev2/Görsel_Programlama_Ödev2/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Görsel_Programlama_Ödev2.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/LENOVO/source/repos/Görsel_Programlama_Ödev2/Görsel_Programlama_Ödev2/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Görsel_Programlama_Ödev2.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/LENOVO/source/repos/Görsel_Programlama_Ödev2/Görsel_Programlama_Ödev2/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Görsel_Programlama_Ödev2.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/LENOVO/source/repos/Görsel_Programlama_Ödev2/Görsel_Programlama_Ödev2/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Görsel_Programlama_Ödev2.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/LENOVO/source/repos/Görsel_Programlama_Ödev2/Görsel_Programlama_Ödev2/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Görsel_Programlama_Ödev2.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/LENOVO/source/repos/Görsel_Programlama_Ödev2/Görsel_Programlama_Ödev2/Views/Anasayfa.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Görsel_Programlama_Ödev2.Views.Anasayfa.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Anasayfa.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Anasayfa.xaml
+
+[C:/Users/LENOVO/source/repos/Görsel_Programlama_Ödev2/Görsel_Programlama_Ödev2/Views/Ayarlar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Görsel_Programlama_Ödev2.Views.Ayarlar.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Ayarlar.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Ayarlar.xaml
+
+[C:/Users/LENOVO/source/repos/Görsel_Programlama_Ödev2/Görsel_Programlama_Ödev2/Views/haber.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Görsel_Programlama_Ödev2.Views.haber.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\haber.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\haber.xaml
+
+[C:/Users/LENOVO/source/repos/Görsel_Programlama_Ödev2/Görsel_Programlama_Ödev2/Views/Kurlar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Görsel_Programlama_Ödev2.Views.Kurlar.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Kurlar.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Kurlar.xaml
+
+[C:/Users/LENOVO/source/repos/Görsel_Programlama_Ödev2/Görsel_Programlama_Ödev2/Views/SehirlerHavaDurumu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Görsel_Programlama_Ödev2.Views.SehirlerHavaDurumu.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SehirlerHavaDurumu.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SehirlerHavaDurumu.xaml
+
+[C:/Users/LENOVO/source/repos/Görsel_Programlama_Ödev2/Görsel_Programlama_Ödev2/Views/Yapilacaklar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Görsel_Programlama_Ödev2.Views.Yapilacaklar.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Yapilacaklar.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Yapilacaklar.xaml

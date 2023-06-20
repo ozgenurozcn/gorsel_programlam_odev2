@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Görsel_Programlama_Ödev2.Views.Anasayfa"
+             Title="Anasayfa" FlyoutLayoutBehavior="Popover">
+    
+    <FlyoutPage.Flyout>
+        <ContentPage Title="Ana Sayfa">
+            <VerticalStackLayout>
+                <Button Text="Ana Sayfa" Clicked="Button_Clicked"/>
+                <Button Text="Kurlar" Clicked="Button_Clicked_1"/>
+                <Button Text="Haberler" Clicked="Button_Clicked_2"/>
+                <Button Text="Hava Durumu" Clicked="Button_Clicked_3"/>
+                <Button Text="Yapılacaklar" Clicked="Button_Clicked_4"/>
+                <Button Text="Ayarlar" Clicked="Button_Clicked_5"/>
+            </VerticalStackLayout>
+        </ContentPage>
+    </FlyoutPage.Flyout>
+
+    <FlyoutPage.Detail>
+        <ContentPage>
+            <VerticalStackLayout  VerticalOptions="Center">
+
+                <Grid RowDefinitions="Auto,Auto, Auto, Auto,*" ColumnDefinitions="Auto,Auto, Auto, Auto,*">
+
+                    <Image Source="ozge_nur_ozcan.jpg"
+                                   Grid.Row="0"
+                                   Grid.Column="2"
+                                   HorizontalOptions="Center"/>
+
+                    <Label Text="Özge Nur ÖZCAN"
+                                   Grid.Row="3"
+                                   Grid.Column="2"
+                                   TextColor="Red"
+                                   SemanticProperties.HeadingLevel="Level1"/>
+
+                    <Label Text="Bartın Üniverstesi Bilgisayar Mühendisliği"
+                                   Grid.Row="4"
+                                   Grid.Column="2"
+                                   TextColor="Red"
+                                   SemanticProperties.HeadingLevel="Level2"/>
+                </Grid>
+            </VerticalStackLayout>
+        </ContentPage>
+
+    </FlyoutPage.Detail>
+</FlyoutPage>
